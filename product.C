@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,product=1,i,rem;
+int n,product=1,rem;
 printf("enter the  number:");
 scanf("%d",&n);
 while(n!=0)
@@ -12,4 +12,4 @@ n=n/10;
 }
 printf("product of number is %d",product);
 return 0;
-}|
+}
